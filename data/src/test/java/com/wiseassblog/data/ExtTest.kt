@@ -63,6 +63,16 @@ class ExtTest{
         assertTrue { result.contains(getAnonymousRoomNote().toNote) }
 
     }
+
+    @Test
+    fun testF(){
+        val roomNoteList = listOf<AnonymousRoomNote>(getAnonymousRoomNote(), getAnonymousRoomNote(), getAnonymousRoomNote(contents = "third"))
+
+        val result = roomNoteList.toNoteListFromAnonymous()
+
+        assertTrue { result.contains(getAnonymousRoomNote().toNote) }
+
+    }
 }
 
 
