@@ -15,6 +15,8 @@ Layer to allow the application to work properly across multiple platforms,
 and a few of my favourite APIs from Android Architecture Component
 and Firebase.
 
+//some random change here
+
 ## Software Architecture
 
 ### Feature Specific (Front End Android):
